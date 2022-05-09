@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom";
 
 
 const Home = () => {
@@ -44,6 +45,7 @@ const Home = () => {
       <div className='footer'>
         <h2>footer</h2>
       </div>
+      <Outlet />
 
     </div>
   )
