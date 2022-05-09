@@ -1,25 +1,31 @@
 import { Outlet } from "react-router-dom";
 import BackgroundVideo from "../../components/background-video/background-video.component";
+import ForegroundVideo from "../../components/foreground-video/foreground-video.component";
+
+import VideoTwo from '../../assets/cppc-video-2.mp4';
+
+import './home.styles.scss';
+import BornOutOf from "../../components/born-out-of/born-out-of.component";
+import ThinkImportant from "../../components/think-important/think-important.component";
+
 
 
 const Home = () => {
   return (
-    <div>
+    <div className="home-container">
 
 
       <div className='landing-page'>
         <BackgroundVideo />
       </div>
 
-      <div className='born-out-of'>
-        <h1>Video</h1>
-        <h1>Born out of...</h1>
-        <p>TEEEEEEEXT</p>
+      <div className='born-out-of-container'>
+        <ForegroundVideo videoSrc={VideoTwo} />
+        <BornOutOf />
       </div>
 
       <div className='important-sections'>
-        <h1>What we think is important</h1>
-        <h2>Four Components</h2>
+        <ThinkImportant />
       </div>
 
       <div className='what-we-do'>
