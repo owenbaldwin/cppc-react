@@ -1,0 +1,45 @@
+.born-out-of-outer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: 32px;
+
+
+}
+
+.born-out-of-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  h1 {
+    font-size: 64px;
+    margin: 0px;
+  }
+}
+
+.born-out-of-text {
+  border: 8px solid black;
+  // padding: 24px;
+  text-align: justify;
+  width: 100%;
+  box-sizing: border-box;
+  p {
+    margin: 24px;
+  }
+}
+
+.separator-container {
+  height: 16px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+
+.separator {
+  border: 6px solid #2C2C8E;
+  height: 0px;
+  width: 96px;
+}
