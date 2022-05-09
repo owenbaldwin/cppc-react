@@ -1,4 +1,5 @@
 import { Outlet } from "react-router-dom";
+import BackgroundVideo from "../../components/background-video/background-video.component";
 
 
 const Home = () => {
@@ -7,7 +8,7 @@ const Home = () => {
 
 
       <div className='landing-page'>
-        <h1>Landing page video</h1>
+        <BackgroundVideo />
       </div>
 
       <div className='born-out-of'>

@@ -150,8 +150,10 @@ li {
   }
 
   .navbar {
-    height: 100px;
+    height: 60px;
     justify-content: center;
-
+    position: sticky;
+    top: 0px;
+    z-index: 10;
   }
 }
