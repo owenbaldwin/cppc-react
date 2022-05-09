@@ -1,0 +1,46 @@
+.think-important-section-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 50vh;
+}
+
+.section-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+}
+
+.section-title {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    color: white;
+    font-size: 40px;
+    text-shadow: 0px 0px 10px black;
+  }
+  .section-stamp {
+    width: 80px;
+    height: 80px;
+    margin-right: 24px;
+  }
+}
+
+.section-text {
+  text-align: justify;
+  border: 4px solid black;
+  margin: 24px;
+  padding: 24px;
+  color: white;
+  background-color: rgba(82, 82, 82, 0.597);
+  width: 40%;
+  p {
+    margin: 0px;
+    font-size: 20px;
+  }
+}
