@@ -1,5 +1,11 @@
 .hwdi-inner {
-  width: 50%;
+  flex-basis: calc(50% - 48px);
+  margin-right: 48px;
+  // height: 100vh;
+}
+
+.hwdi-item-container {
+  margin: 40px 0px;
 }
 
 .hwdi-item-top {
@@ -28,4 +34,8 @@
   h4,h6 {
     margin: 0px;
   }
+}
+
+.hwdi-item-text {
+  text-align: justify;
 }

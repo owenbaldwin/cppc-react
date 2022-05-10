@@ -11,6 +11,8 @@ import BornOutOf from "../../components/born-out-of/born-out-of.component";
 import ThinkImportant from "../../components/think-important/think-important.component";
 import WhatWeDo from "../../components/what-we-do/what-we-do.component";
 import HowWeDoIt from "../../components/how-we-do-it/how-we-do-it.component";
+import CaseStudy from "../../components/case-study/case-study.component";
+import Reference from "../../components/reference/reference.component";
 
 
 
@@ -51,9 +53,12 @@ const Home = () => {
         </div>
       </div>
 
-      <div className='case-studies'>
-        <p>SIX Components</p>
-        <p>3 quote components</p>
+      <div className='case-studies-container'>
+        <CaseStudy />
+      </div>
+
+      <div className="references-container">
+        <Reference />
       </div>
 
       <div className='contact'>
