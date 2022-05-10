@@ -11,3 +11,25 @@
   align-items: center;
   justify-content: center;
 }
+
+
+.how-we-do-it-container {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.how-we-do-it-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.how-we-do-it-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
