@@ -7,13 +7,13 @@ import VideoTwo from '../../assets/cppc-video-2.mp4';
 import './home.styles.scss';
 import BornOutOf from "../../components/born-out-of/born-out-of.component";
 import ThinkImportant from "../../components/think-important/think-important.component";
+import WhatWeDo from "../../components/what-we-do/what-we-do.component";
 
 
 
 const Home = () => {
   return (
     <div className="home-container">
-
 
       <div className='landing-page'>
         <BackgroundVideo />
@@ -29,9 +29,7 @@ const Home = () => {
       </div>
 
       <div className='what-we-do'>
-        <h1>What we do</h1>
-        <h2>image1</h2>
-        <h2>image2</h2>
+        <WhatWeDo />
       </div>
 
       <div className='why-we-do-it'>
