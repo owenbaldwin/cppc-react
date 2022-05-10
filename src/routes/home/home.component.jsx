@@ -3,11 +3,14 @@ import BackgroundVideo from "../../components/background-video/background-video.
 import ForegroundVideo from "../../components/foreground-video/foreground-video.component";
 
 import VideoTwo from '../../assets/cppc-video-2.mp4';
+import VideoThree from '../../assets/cppc-video-3.mp4';
+
 
 import './home.styles.scss';
 import BornOutOf from "../../components/born-out-of/born-out-of.component";
 import ThinkImportant from "../../components/think-important/think-important.component";
 import WhatWeDo from "../../components/what-we-do/what-we-do.component";
+import HowWeDoIt from "../../components/how-we-do-it/how-we-do-it.component";
 
 
 
@@ -32,10 +35,20 @@ const Home = () => {
         <WhatWeDo />
       </div>
 
-      <div className='why-we-do-it'>
-        <h1>How we do it</h1>
-        <p>Four compnents for text</p>
-        <h2>video</h2>
+      <div className='how-we-do-it-container'>
+        <div className='how-we-do-it-top'>
+          <div className='separator-container'>
+            <div className='separator'/>
+          </div>
+          <div className='wwd-title'>
+            <h1>How we do it</h1>
+          </div>
+        </div>
+
+        <div className='how-we-do-it-bottom'>
+          <HowWeDoIt />
+          <ForegroundVideo videoSrc={VideoThree} />
+        </div>
       </div>
 
       <div className='case-studies'>
