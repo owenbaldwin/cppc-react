@@ -1,0 +1,48 @@
+.contact-outer {
+  display: flex;
+  width: 90%;
+}
+
+.contact-image {
+  height: 294px;
+}
+
+.contact-box {
+  height: 230px;
+  border: 8px solid #2F2E2E;
+  background-color: #5E5E5E;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 24px;
+}
+
+.contact-mid {
+  display: flex;
+  text-align: right;
+  p {
+    color: white;
+    margin: 0px;
+  }
+}
+
+.contact-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-bottom-left {
+  display: flex;
+  .social-media-link {
+    height: 24px;
+    margin: 8px;
+  }
+}
+
+.contact-bottom-right {
+  text-align: right;
+  p {
+    color: white;
+    margin: 0px;
+  }
+}
