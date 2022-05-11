@@ -13,6 +13,7 @@ import WhatWeDo from "../../components/what-we-do/what-we-do.component";
 import HowWeDoIt from "../../components/how-we-do-it/how-we-do-it.component";
 import CaseStudy from "../../components/case-study/case-study.component";
 import Reference from "../../components/reference/reference.component";
+import Contact from "../../components/contact/contact.component";
 
 
 
@@ -61,8 +62,8 @@ const Home = () => {
         <Reference />
       </div>
 
-      <div className='contact'>
-        <h1>Contact box</h1>
+      <div className='contact-container'>
+        <Contact />
       </div>
 
       <div className='footer'>
