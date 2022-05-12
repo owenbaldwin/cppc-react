@@ -8,10 +8,6 @@ const CaseStudy = () => {
     <div className="cs-inner">
       {CASE_STUDIES.map((item) => (
         <CaseStudyCard content={item} key={item.id} />
-
-
-
-
       ))}
     </div>
   );
