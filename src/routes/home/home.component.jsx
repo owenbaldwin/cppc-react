@@ -66,9 +66,6 @@ const Home = () => {
         <Contact />
       </div>
 
-      <div className='footer'>
-        <h2>footer</h2>
-      </div>
       <Outlet />
 
     </div>
