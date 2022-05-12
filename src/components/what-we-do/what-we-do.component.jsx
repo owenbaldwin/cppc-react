@@ -1,17 +1,13 @@
 import './what-we-do.styles.scss';
 import WHAT_WE_DO from '../../json-db/what-we-do';
+import Title from '../title/title.component';
 
 console.log(WHAT_WE_DO[0].aspects);
 
 const WhatWeDo = () => {
   return (
     <div className='wwd-inner'>
-      <div className='separator-container'>
-        <div className='separator'/>
-      </div>
-      <div className='wwd-title'>
-        <h1>What we do</h1>
-      </div>
+      <Title title="What we do" colour="green" side="right" />
       <div className='wwd-item-list'>
         {WHAT_WE_DO[0].aspects.map((item) => {
           return (
