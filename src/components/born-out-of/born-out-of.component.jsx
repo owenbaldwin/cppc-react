@@ -1,14 +1,13 @@
 import './born-out-of.styles.scss';
 import BORN_OUT_OF_TEXT from '../../json-db/born-out-of';
+import Title from '../title/title.component';
 
 const BornOutOf = () => {
   return (
     <div className='born-out-of-outer'>
       <div className='born-out-of-inner'>
-        <div className='separator-container'>
-          <div className='separator'/>
-        </div>
-        <h1>Born out of...</h1>
+        <Title title="Born out of..." colour="blue" side="right" />
+
         <div className='born-out-of-text'>
           {BORN_OUT_OF_TEXT.map((object) => {
             return <p key={object.id}>{object.text}</p>

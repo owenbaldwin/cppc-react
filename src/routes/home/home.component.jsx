@@ -14,6 +14,7 @@ import HowWeDoIt from "../../components/how-we-do-it/how-we-do-it.component";
 import CaseStudy from "../../components/case-study/case-study.component";
 import Reference from "../../components/reference/reference.component";
 import Contact from "../../components/contact/contact.component";
+import Title from "../../components/title/title.component";
 
 
 
@@ -39,14 +40,12 @@ const Home = () => {
       </div>
 
       <div className='how-we-do-it-container'>
-        <div className='how-we-do-it-top'>
-          <div className='separator-container'>
-            <div className='separator'/>
-          </div>
-          <div className='wwd-title'>
-            <h1>How we do it</h1>
-          </div>
-        </div>
+
+
+
+        <Title title="How we do it" colour="yellow" side="left" />
+
+
 
         <div className='how-we-do-it-bottom'>
           <HowWeDoIt />

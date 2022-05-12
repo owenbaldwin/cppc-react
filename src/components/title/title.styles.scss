@@ -1,0 +1,45 @@
+.separator-container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.left {
+  align-items: flex-start;
+}
+
+.right {
+  align-items: flex-end;
+}
+
+.separator {
+  height: 0px;
+  width: 96px;
+}
+
+.blue {
+  border: 6px solid #2C2C8E;
+}
+
+.red {
+  border: 6px solid #EE1566;
+}
+
+.green {
+  border: 6px solid #00FFBF;
+}
+
+.yellow {
+  border: 6px solid #FDF733;
+}
+
+.salmon {
+  border: 6px solid #FFCBAB;
+}
+
+.burgundy {
+  border: 6px solid #950032;
+}

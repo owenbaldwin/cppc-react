@@ -2,7 +2,7 @@ import './contact.styles.scss';
 import { ReactComponent as InstaLogo } from '../../assets/instagram-brands.svg';
 import { ReactComponent as FbLogo } from '../../assets/facebook-f-brands.svg';
 import { ReactComponent as LinkedinLogo } from '../../assets/linkedin-in-brands.svg';
-
+import Title from '../title/title.component';
 
 
 const Contact = () => {
@@ -12,19 +12,10 @@ const Contact = () => {
         <img src="https://i.ibb.co/MRt88gz/CPPC-BUSINESS-CARDS-MOCK-UP.webp" alt="business cards" className='contact-image'/>
       </div>
       <div className='contact-box'>
-        <div className='separator-container'>
-          <div className='separator'/>
-        </div>
-        <div className='wwd-title'>
-          <a href="https://www.instagram.com/cppc_lex/" target="_blank">Instagram</a>
-        </div>
-        <div className='separator-container'>
-          <div className='separator'/>
-        </div>
-        <div className='wwd-title'>
-          {/*BUILD CONTACT US*/}
-          <h3>Contact Us</h3>
-        </div>
+
+
+        <Title title="" colour="red" side="right" />
+          <h3>Contact us</h3>
         <div className='contact-mid'>
           <p>Have any questions for us? Click above, fill the form  and we will get back to you as soon as possible. Alternatively, you can find us :</p>
         </div>
