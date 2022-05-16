@@ -3,6 +3,9 @@ import { ReactComponent as InstaLogo } from '../../assets/instagram-brands.svg';
 import { ReactComponent as FbLogo } from '../../assets/facebook-f-brands.svg';
 import { ReactComponent as LinkedinLogo } from '../../assets/linkedin-in-brands.svg';
 import Title from '../title/title.component';
+import SidePane from '../side-pane/side-pane.component';
+
+
 
 
 const Contact = () => {
@@ -12,10 +15,11 @@ const Contact = () => {
         <img src="https://i.ibb.co/MRt88gz/CPPC-BUSINESS-CARDS-MOCK-UP.webp" alt="business cards" className='contact-image'/>
       </div>
       <div className='contact-box'>
+        <div className='contact-top'>
+          {/* <Title title="" colour="red" side="right" />*/}
+          <SidePane contact="Contact us"/>
+        </div>
 
-
-        <Title title="" colour="red" side="right" />
-          <h3>Contact us</h3>
         <div className='contact-mid'>
           <p>Have any questions for us? Click above, fill the form  and we will get back to you as soon as possible. Alternatively, you can find us :</p>
         </div>

@@ -65,6 +65,8 @@ const Home = () => {
         <Contact />
       </div>
 
+
+
       <Outlet />
 
     </div>
@@ -73,3 +75,13 @@ const Home = () => {
 
 
 export default Home;
+
+
+// <div className='sidebar'>
+//         <ul>
+//           <li><a>hi</a></li>
+//           <li><a>hi</a></li>
+//           <li><a>hi</a></li>
+
+//         </ul>
+//       </div>
