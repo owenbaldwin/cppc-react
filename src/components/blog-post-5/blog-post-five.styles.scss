@@ -8,12 +8,13 @@
 .blog-post-five-half {
   display: flex;
   align-items: flex-start;
+  justify-content: space-between;
   margin-bottom: 24px;
 }
 
 .blog-post-five-image-large {
   width: 40%;
-  margin: 0px 24px;
+  margin-right: 24px;
   object-fit: scale-down;
 }
 
