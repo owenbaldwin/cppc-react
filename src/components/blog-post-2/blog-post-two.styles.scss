@@ -1,0 +1,33 @@
+.blog-post-two-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+.blog-post-two-title-image {
+  width: 60%;
+}
+
+.blog-post-two-image-banner {
+  width: 100%;
+  margin: 36px 0px;
+}
+
+.blog-post-two-body {
+  display: flex;
+}
+
+.blog-post-two-half {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blog-post-two-bordered-text {
+  width: 45%;
+  border: 8px solid black;
+  padding: 24px;
+  text-align: justify;
+}
