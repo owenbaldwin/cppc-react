@@ -1,3 +1,5 @@
+@import "../../stylesheets/variables.scss";
+
 .blog-post-two-container {
   display: flex;
   flex-direction: column;
@@ -26,8 +28,60 @@
 }
 
 .blog-post-two-bordered-text {
-  width: 45%;
+  width: 80%;
   border: 8px solid black;
   padding: 24px;
   text-align: justify;
+}
+
+.blog-post-two-image-mid {
+  width: 80%;
+  margin: 36px 0px;
+}
+
+.blog-post-two-small-image-container {
+  display: flex;
+
+}
+
+.blog-post-two-image-small {
+  width: 50%;
+}
+
+.blog-post-two-text {
+  width: 80%;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: justify;
+  margin: 36px 0px;
+}
+
+.blog-post-two-three-images {
+  display: flex;
+  justify-content: space-between;
+  margin: 36px 0px;
+}
+
+.blog-post-two-image-small {
+  width: 33%;
+}
+
+.blog-post-two-quote-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.blog-post-two-quote {
+  font-style: italic;
+}
+
+.blog-post-two-quote-subtitle {
+  font-weight: bold;
+}
+
+
+p, a {
+  font-family: Futura;
 }

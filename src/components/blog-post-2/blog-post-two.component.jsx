@@ -49,9 +49,9 @@ const BlogPostTwo = () => {
       </div>
 
       <div className='blog-post-two-quote-container'>
-        <p className='blog-post-two-quote'>{text[4].paragraph}</p>
-        <p className='blog-post-two-dominic'>{text[5].paragraph}</p>
-        <p className='blog-post-two-founder'>{text[6].paragraph}</p>
+        <p className='blog-post-two-quote'>"{text[4].paragraph}"</p>
+        <p className='blog-post-two-quote-subtitle'>{text[5].paragraph}</p>
+        <p className='blog-post-two-quote-subtitle'>{text[6].paragraph}</p>
       </div>
 
       <img src={photos[8].imageUrl} alt="CarbonQuota" className='blog-post-two-image-banner'/>
