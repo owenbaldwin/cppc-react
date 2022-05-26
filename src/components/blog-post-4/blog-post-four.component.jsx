@@ -1,6 +1,7 @@
 import './blog-post-four.styles.scss';
 import BLOG_POST_FOUR from '../../json-db/blog-post-4';
 import Title from '../title/title.component';
+import BlogBackBtn from '../blog-back-btn/blog-back-btn.component';
 
 const BlogPostFour = () => {
   const { title, text, photos } = BLOG_POST_FOUR[0];
@@ -34,6 +35,7 @@ const BlogPostFour = () => {
           <p>{text[3].paragraph}</p>
         </div>
       </div>
+      <BlogBackBtn />
     </div>
   );
 };
