@@ -5,6 +5,7 @@ import BlogPostFive from '../../components/blog-post-5/blog-post-five.component'
 import BlogPostFour from '../../components/blog-post-4/blog-post-four.component';
 import BlogPostThree from '../../components/blog-post-3/blog-post-three.component';
 import BlogPostTwo from '../../components/blog-post-2/blog-post-two.component';
+import BlogPostOne from '../../components/blog-post-1/blog-post-one.component';
 
 const Blog = () => {
   return (
@@ -15,7 +16,7 @@ const Blog = () => {
       <BlogPostFour />
       <BlogPostThree />
       <BlogPostTwo />
-
+      <BlogPostOne />
     </div>
   );
 };

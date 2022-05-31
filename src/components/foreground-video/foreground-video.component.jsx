@@ -1,9 +1,9 @@
 import './foreground-video.styles.scss';
 
-const ForegroundVideo = ({videoSrc}) => {
+const ForegroundVideo = ({videoSrc, height}) => {
   return (
     <div>
-      <video loop autoPlay muted className='foreground-video'>
+      <video loop autoPlay muted className={`foreground-video ${height}`}>
         <source
           src={videoSrc}
           type="video/mp4"
