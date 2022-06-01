@@ -11,7 +11,7 @@
 }
 
 .blog-post-six-logo {
-  height: 206px;
+  height: 150px;
 }
 
 .blog-post-six-video-container {
@@ -27,6 +27,9 @@
   width: 60%;
   margin: 48px 0px;
   padding: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   a {
     color: black;
   }

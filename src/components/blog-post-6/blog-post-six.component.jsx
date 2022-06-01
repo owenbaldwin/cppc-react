@@ -10,13 +10,13 @@ const BlogPostSix = () => {
   return (
     <div className='blog-post-six-container'>
       <Title title={title} side="right" colour="green" />
-      <div className='blog-post-six-logo-container'>
-        <img src={logos[0].logo} alt={title} className='blog-post-six-logo'/>
-        <img src={logos[1].logo} alt={title} className='blog-post-six-logo'/>
-      </div>
       <div className='blog-post-six-video-container'>
-        <ForegroundVideo videoSrc={video} />
+        <ForegroundVideo videoSrc={video} height="hundredvh"/>
         <div className='blog-post-six-text'>
+          <div className='blog-post-six-logo-container'>
+            <img src={logos[0].logo} alt={title} className='blog-post-six-logo'/>
+            <img src={logos[1].logo} alt={title} className='blog-post-six-logo'/>
+          </div>
           <p>{text[0].paragraph}</p>
         </div>
       </div>
