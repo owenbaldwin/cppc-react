@@ -10,7 +10,6 @@ const BlogPostSix = () => {
   return (
     <div className='blog-post-six-container'>
       <Title title={title} side="right" colour="green" />
-
       <div className='blog-post-six-video-container'>
         <ForegroundVideo videoSrc={video} height="hundredvh"/>
         <div className='blog-post-six-text'>
