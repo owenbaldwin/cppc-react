@@ -18,12 +18,14 @@
 }
 
 .blog-post-four-small-image-container {
-  width: 45%;
+  width: 100%;
+  // height: 200px;
+  display: flex;
 }
 
 .blog-post-four-image-small {
-  width: 45%;
-  // height: 100%;
+  // width: 45%;
+  height: 100%;
 }
 
 .blog-post-four-text {
