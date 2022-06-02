@@ -27,7 +27,7 @@ const Home = () => {
       </div>
 
       <div className='born-out-of-container'>
-        <ForegroundVideo videoSrc={VideoTwo} />
+        <ForegroundVideo videoSrc={VideoTwo} height='hundredvh'/>
         <BornOutOf />
       </div>
 
@@ -49,7 +49,7 @@ const Home = () => {
 
         <div className='how-we-do-it-bottom'>
           <HowWeDoIt />
-          <ForegroundVideo videoSrc={VideoThree} />
+          <ForegroundVideo videoSrc={VideoThree} height='hundredvh' />
         </div>
       </div>
 
@@ -61,7 +61,7 @@ const Home = () => {
         <Reference />
       </div>
 
-      <div className='contact-container'>
+      <div className='contact-container' id="ctc">
         <Contact />
       </div>
 
