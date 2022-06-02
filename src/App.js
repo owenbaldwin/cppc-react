@@ -4,6 +4,7 @@ import Home from './routes/home/home.component';
 import Navigation from './routes/navigation/navigation.component';
 import Gallery from './routes/gallery/gallery.component';
 import Blog from './routes/blog/blog.component';
+import ContactPage from './routes/contact/contact.component';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path=":gallery" element={<Gallery />} />
           <Route path="blog" element={<Blog />} />
+          <Route path="contact" element={<ContactPage />} />
 
         </Route>
       </Routes>

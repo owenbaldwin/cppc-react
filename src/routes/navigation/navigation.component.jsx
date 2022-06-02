@@ -19,8 +19,9 @@ const Navigation = () => {
           <label for="menu-btn" class="menu-icon"><span class="nav-icon"></span></label>
           <ul class="tabs">
             <li><a href="/">Home</a></li>
+
             <li>
-              <a href="/">Contact</a>
+              <a href="/contact">Contact</a>
             </li>
             <li><a href="/blog">Blog</a></li>
           </ul>
