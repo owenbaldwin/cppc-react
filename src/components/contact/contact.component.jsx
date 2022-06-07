@@ -3,12 +3,19 @@ import { ReactComponent as InstaLogo } from '../../assets/instagram-brands.svg';
 import { ReactComponent as FbLogo } from '../../assets/facebook-f-brands.svg';
 import { ReactComponent as LinkedinLogo } from '../../assets/linkedin-in-brands.svg';
 import Title from '../title/title.component';
-import SidePane from '../side-pane/side-pane.component';
-
+import { useState } from 'react';
+import Modal from '../../components/modal/modal.component';
 
 
 
 const Contact = () => {
+
+  const [showModal, setShowModal] = useState(false)
+
+  const openModal = () => {
+    setShowModal(prev => !prev)
+  }
+
   return (
     <div className='contact-outer'>
       <div className='contact-image-container'>
@@ -17,7 +24,8 @@ const Contact = () => {
       <div className='contact-box'>
         <div className='contact-top'>
           {/* <Title title="" colour="red" side="right" />*/}
-          <SidePane contact="Contact us"/>
+          <button type="button" className='contact-btn' onClick={openModal}>Contact Us</button>
+          <Modal showModal={showModal} setShowModal={setShowModal} />
         </div>
 
         <div className='contact-mid'>
@@ -42,3 +50,7 @@ const Contact = () => {
 };
 
 export default Contact;
+
+
+
+// <SidePane contact="Contact us"/>

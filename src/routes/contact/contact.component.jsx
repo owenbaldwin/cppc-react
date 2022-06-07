@@ -1,6 +1,7 @@
 import './contact.styles.scss';
 import { useState } from 'react';
 import Modal from '../../components/modal/modal.component';
+// import { GlobalStyle } from './globalStyles';
 
 const ContactPage = () => {
   const [showModal, setShowModal] = useState(false)
@@ -17,3 +18,5 @@ const ContactPage = () => {
 };
 
 export default ContactPage;
+
+    // <GlobalStyle />
