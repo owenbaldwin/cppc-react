@@ -32,11 +32,13 @@ const Contact = () => {
           <p>Have any questions for us? Click above, fill the form  and we will get back to you as soon as possible. Alternatively, you can find us :</p>
         </div>
         <div className='contact-bottom'>
-          <div className='contact-bottom-left'>
+          <div className='social-media-links'>
             {/*BUILD CONTACT US*/}
-            <LinkedinLogo className='social-media-link'/>
-            <a href="https://www.instagram.com/cppc_lex/" target="_blank"><InstaLogo className='social-media-link'/></a>
-            <FbLogo className='social-media-link'/>
+
+            <i class="fa-brands fa-twitter"></i>
+            <a href="https://www.instagram.com/cppc_lex/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+
+            <i class="fa-brands fa-facebook-f"></i>
           </div>
           <div className='contact-bottom-right'>
             <p>23 Frensham road London SE9 3RG</p>
@@ -54,3 +56,6 @@ export default Contact;
 
 
 // <SidePane contact="Contact us"/>
+// <LinkedinLogo className='social-media-link'/>
+// <a href="https://www.instagram.com/cppc_lex/" target="_blank"><InstaLogo className='social-media-link'/></a>
+// <FbLogo className='social-media-link'/>

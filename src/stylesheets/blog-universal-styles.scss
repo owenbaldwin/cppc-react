@@ -69,3 +69,29 @@
   width: 100%;
   margin: 36px 0px;
 }
+
+
+.social-media-links {
+  i {
+    color: white;
+    margin: 16px 24px;
+    font-size: 24px;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+}
+
+.fa-twitter:hover {
+  color: #1D9BF0;
+}
+
+.fa-instagram:hover {
+  transition: 0.3s;
+  background: -webkit-linear-gradient(315deg, #C501D2, #FFC001);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-facebook-f:hover {
+  color: #1672E6;
+}
