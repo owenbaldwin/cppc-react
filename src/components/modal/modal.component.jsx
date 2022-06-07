@@ -32,9 +32,13 @@ const Modal = ({showModal, setShowModal}) => {
                 <p>We'll be more than happy to bring it to life.</p>
               </div>
               <ContactForm />
+              <div className='social-media-links'>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+              </div>
             </div>
-            <mdClose className='close-modal-btn' aria-label='Close-modal'
-              onClick={() => setShowModal (prev => !prev)} > X </mdClose>
+            <i class="fa-solid fa-xmark close-modal-btn" onClick={() => setShowModal (prev => !prev)}></i>
           </div>
         </div>
       ) : null}
@@ -43,3 +47,7 @@ const Modal = ({showModal, setShowModal}) => {
 };
 
 export default Modal;
+
+
+// <mdClose className='close-modal-btn' aria-label='Close-modal'
+//               onClick={() => setShowModal (prev => !prev)} > X </mdClose>
