@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "main": "server.js",
-  "engines": { "yarn": "1.22.17", "node": "16.10.0" },
+  "engines": {
+    "yarn": "1.22.17",
+    "node": "16.10.0"
+  },
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
@@ -24,15 +27,18 @@
     "react-sliding-pane": "^7.1.0",
     "react-spring": "^9.0.0-rc.3",
     "sass": "^1.51.0",
+    "serve": "^13.0.2",
     "styled-components": "^5.3.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "heroku-postbuild": "yarn install",
-    "start": "node server.js",
+    "dev": "react-scripts start",
+    "start": "serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postinstall": "yarn run build"
   },
   "eslintConfig": {
     "extends": [
