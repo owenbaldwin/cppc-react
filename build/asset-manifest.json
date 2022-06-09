@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ffe7db41.css",
+    "main.js": "/static/js/main.d289cea2.js",
+    "static/js/787.c764e7ca.chunk.js": "/static/js/787.c764e7ca.chunk.js",
+    "static/media/blog-post-three-video-2.mp4": "/static/media/blog-post-three-video-2.7eb77e76f900834a3ea0.mp4",
+    "static/media/cppc-video-3.mp4": "/static/media/cppc-video-3.da259145e202b35ee5ec.mp4",
+    "static/media/neat-gallery-video.mp4": "/static/media/neat-gallery-video.da259145e202b35ee5ec.mp4",
+    "static/media/blog-post-one-video-one.mp4": "/static/media/blog-post-one-video-one.5e0725f517a0bbea1ac9.mp4",
+    "static/media/cppc-video-2.mp4": "/static/media/cppc-video-2.35e4aad9ec1e575b7384.mp4",
+    "static/media/blog-post-six-video.mp4": "/static/media/blog-post-six-video.62df9af2b75fd313fecb.mp4",
+    "static/media/cppc-landing-video.mp4": "/static/media/cppc-landing-video.f221c02a25a186f93ad5.mp4",
+    "static/media/blog-post-three-video-1.mp4": "/static/media/blog-post-three-video-1.a8c9aedb87d0d093fea6.mp4",
+    "static/media/blog-post-one-video-two.mp4": "/static/media/blog-post-one-video-two.e677c2803674d7809abd.mp4",
+    "static/media/Futura.ttc": "/static/media/Futura.b46917316df181e77834.ttc",
+    "static/media/cppc-contact-bg.jpg": "/static/media/cppc-contact-bg.a4b05b1bdc845d44d838.jpg",
+    "index.html": "/index.html",
+    "static/media/instagram-brands.svg": "/static/media/instagram-brands.813fd06b51b26e101fbbdde32e64af13.svg",
+    "static/media/linkedin-in-brands.svg": "/static/media/linkedin-in-brands.35d7cb01584842580623e4e827edfe6d.svg",
+    "static/media/facebook-f-brands.svg": "/static/media/facebook-f-brands.8adca75361b744d17bbeb17b9c804d9d.svg",
+    "main.ffe7db41.css.map": "/static/css/main.ffe7db41.css.map",
+    "main.d289cea2.js.map": "/static/js/main.d289cea2.js.map",
+    "787.c764e7ca.chunk.js.map": "/static/js/787.c764e7ca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffe7db41.css",
+    "static/js/main.d289cea2.js"
+  ]
+}
