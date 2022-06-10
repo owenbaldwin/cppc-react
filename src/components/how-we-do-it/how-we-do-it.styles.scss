@@ -1,7 +1,15 @@
+@import "../../stylesheets/variables.scss";
+
 .hwdi-inner {
   flex-basis: calc(50% - 48px);
   margin-right: 48px;
   // height: 100vh;
+}
+
+@media screen and (max-width: $tablet) {
+  .hwdi-inner {
+    margin-right: 0px;
+  }
 }
 
 .hwdi-item-container {
@@ -11,6 +19,15 @@
 .hwdi-item-top {
   display: flex;
   align-items: center;
+}
+
+@media screen and (max-width: $tablet) {
+  .hwdi-item-top {
+    margin: 12px 0px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
 }
 
 .hwdi-item-id {
@@ -26,6 +43,7 @@
   }
 }
 
+
 .hwdi-item-title {
   margin-left: 24px;
   display: flex;
@@ -33,6 +51,16 @@
   flex-direction: column;
   h4,h6 {
     margin: 0px;
+  }
+}
+
+@media screen and (max-width: $tablet) {
+  .hwdi-item-title {
+    align-items: center;
+    margin: 0px;
+    h4 {
+      font-size: 16px;
+    }
   }
 }
 

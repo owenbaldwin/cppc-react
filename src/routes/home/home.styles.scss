@@ -34,6 +34,12 @@
   flex-direction: column;
 }
 
+@media screen and (max-width: $tablet) {
+  .how-we-do-it-container {
+    width: 95%;
+  }
+}
+
 .how-we-do-it-top {
   display: flex;
   align-items: center;
@@ -45,6 +51,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (max-width: $tablet) {
+  .how-we-do-it-bottom {
+    flex-direction: column-reverse;
+  }
 }
 
 
