@@ -3,7 +3,7 @@ import THINK_IMPORTANT from '../../json-db/think-important';
 import ThinkImportantSection from '../think-important-section/think-important-section.component';
 import Title from '../title/title.component';
 
-console.log(THINK_IMPORTANT);
+// console.log(THINK_IMPORTANT);
 
 const ThinkImportant = () => {
   return (
