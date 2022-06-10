@@ -39,21 +39,15 @@ const Home = () => {
       <div className='what-we-do'>
         <WhatWeDo />
       </div>
-{/*
+
       <div className='how-we-do-it-container'>
-
-
-
         <Title title="How we do it" colour="yellow" side="left" />
-
-
-
         <div className='how-we-do-it-bottom'>
           <HowWeDoIt />
           <ForegroundVideo videoSrc={VideoThree} height='hundredvh' />
         </div>
       </div>
-
+{/*
       <div className='case-studies-container'>
         <CaseStudy />
       </div>
