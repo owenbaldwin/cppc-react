@@ -1,9 +1,16 @@
+@import "../../stylesheets/variables.scss";
+
 .wwd-inner {
   display: flex;
   flex-direction: column;
   margin-top: 24px;
 }
 
+@media screen and (max-width: $tablet) {
+  .wwd-inner {
+    width: 95%;
+  }
+}
 
 .wwd-title {
   display: flex;
@@ -21,10 +28,17 @@
   margin-top: 24px;
 }
 
+@media screen and (max-width: $tablet) {
+  .wwd-item-list {
+    flex-wrap: wrap;
+  }
+}
+
 .wwd-item {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 .wwd-item-image {
@@ -41,5 +55,12 @@
 }
 
 .wwd-diagram {
-  width: 736px;
+  // width: 736px;
+  width: 60%;
+}
+
+@media screen and (max-width: $tablet) {
+  .wwd-diagram {
+    width: 95%;
+  }
 }
