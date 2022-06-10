@@ -4,22 +4,22 @@ const WHAT_WE_DO = [
     aspects: [
       {
         id: 2,
-        title: "MANUFACTURING & PROCUREMENT",
+        title: "MANUFACTURING\n& PROCUREMENT",
         imageUrl: "https://i.ibb.co/tH9K60F/3d-modeling.webp"
       },
       {
         id: 3,
-        title: "LOGISTICAL SOLUTIONS",
+        title: "LOGISTICAL\nSOLUTIONS",
         imageUrl: "https://i.ibb.co/bXWJbTz/logistic.webp"
       },
       {
         id: 4,
-        title: "PRODUCT DESIGN & DEVELOPMENT",
+        title: "PRODUCT DESIGN\n& DEVELOPMENT",
         imageUrl: "https://i.ibb.co/1s6S6JJ/origami.webp"
       },
       {
         id: 5,
-        title: "CAD SAMPLING",
+        title: "CAD\nSAMPLING",
         imageUrl: "https://i.ibb.co/8dmBrr8/cad.webp"
       },
     ]

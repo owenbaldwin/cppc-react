@@ -13,7 +13,7 @@ const WhatWeDo = () => {
           return (
             <div key={item.id} className='wwd-item'>
               <img src={item.imageUrl} alt="item diagram" className='wwd-item-image'/>
-              <h4>{item.title}</h4>
+              <h4><pre>{item.title}</pre></h4>
             </div>
           )
         })}

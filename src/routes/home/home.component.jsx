@@ -35,11 +35,11 @@ const Home = () => {
       <div className='important-sections'>
         <ThinkImportant />
       </div>
-{/*
+
       <div className='what-we-do'>
         <WhatWeDo />
       </div>
-
+{/*
       <div className='how-we-do-it-container'>
 
 
