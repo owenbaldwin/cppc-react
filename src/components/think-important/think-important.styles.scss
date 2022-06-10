@@ -1,0 +1,13 @@
+@import "../../stylesheets/variables.scss";
+
+@media screen and (max-width: $tablet) {
+  .think-important-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .think-important-title {
+    width: 95%;
+  }
+
+}

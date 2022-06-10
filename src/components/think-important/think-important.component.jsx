@@ -7,9 +7,10 @@ import Title from '../title/title.component';
 
 const ThinkImportant = () => {
   return (
-    <div>
-
-      <Title title="What we think is important" side="left" colour="red" />
+    <div className='think-important-inner'>
+      <div className='think-important-title'>
+        <Title title="What we think is important" side="left" colour="red" />
+      </div>
       {THINK_IMPORTANT.map((section) => (
         <ThinkImportantSection section={section} />
       ))}
