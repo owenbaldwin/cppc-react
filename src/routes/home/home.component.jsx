@@ -47,20 +47,20 @@ const Home = () => {
           <ForegroundVideo videoSrc={VideoThree} height='hundredvh' />
         </div>
       </div>
-{/*
+
       <div className='case-studies-container'>
         <CaseStudy />
       </div>
-
+{/*
       <div className="references-container">
         <Reference />
       </div>
 
+
       <div className='contact-container' id="ctc">
         <Contact />
       </div>
-
-  */}
+*/}
 
       <Outlet />
 

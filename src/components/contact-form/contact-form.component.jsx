@@ -14,7 +14,8 @@ const ContactForm = () => {
           console.log("messga sent");
       }, (error) => {
           console.log(error.text);
-      });
+      }
+    );
   };
 
   return (

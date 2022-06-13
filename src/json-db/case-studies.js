@@ -18,7 +18,8 @@ const CASE_STUDIES = [
       {
         imageUrl: "https://i.ibb.co/TkdJfQb/1881d2-0fa97ccddf75431cb140dd23717f74d4-mv2.webp",
       },
-    ]
+    ],
+    previewPhoto: "https://i.ibb.co/TkdJfQb/1881d2-0fa97ccddf75431cb140dd23717f74d4-mv2.webp",
   },
   {
     id: 2,
@@ -46,7 +47,8 @@ const CASE_STUDIES = [
       {
         imageUrl: "https://i.ibb.co/grJPPvP/1881d2-c3066e7b3eb748228f07bef21b44bfd3-mv2.webp",
       },
-    ]
+    ],
+    previewPhoto: "https://i.ibb.co/4JZT36P/1881d2-75ed77acebc94df2ac068eaa200d0694-mv2.webp",
   },
   {
     id: 3,
@@ -77,7 +79,8 @@ const CASE_STUDIES = [
       {
         imageUrl: "https://i.ibb.co/F8mVc1m/1881d2-24254ef30f984d439116b68026722b85-mv2.webp",
       },
-    ]
+    ],
+    previewPhoto: "https://i.ibb.co/F8mVc1m/1881d2-24254ef30f984d439116b68026722b85-mv2.webp",
   },
   {
     id: 4,
@@ -102,7 +105,8 @@ const CASE_STUDIES = [
       {
         imageUrl: "https://i.ibb.co/Y0mTfgq/1881d2-92cb5cac2524468b9801bdec0600e21b-mv2.webp",
       },
-    ]
+    ],
+    previewPhoto: "https://i.ibb.co/ChbkJjR/1881d2-df844da3b1854e8591f6324c88d170b0-mv2.webp",
   },
   {
     id: 5,
@@ -130,7 +134,8 @@ const CASE_STUDIES = [
       {
         video: NeatVideo,
       },
-    ]
+    ],
+    previewPhoto: "https://i.ibb.co/jvFBcr4/1881d2-0fd59decabce4aa484863140b9513c8c-mv2.webp",
   },
   {
     id: 6,
@@ -174,7 +179,8 @@ const CASE_STUDIES = [
         imageUrl: "https://i.ibb.co/3Mc5fRZ/1881d2-ab49982308dc405287495ad7194fd6da-mv2.webp",
       },
 
-    ]
+    ],
+    previewPhoto: "https://i.ibb.co/0mbbJrq/1881d2-5f8860a488774aa8a85620f827044046-mv2.webp",
   },
 ]
 
