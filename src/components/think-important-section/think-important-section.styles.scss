@@ -9,6 +9,12 @@
   min-height: 50vh;
 }
 
+@media screen and (max-width: $tablet) {
+  .think-important-section-container {
+    background-position: center;
+  }
+}
+
 .section-content {
   display: flex;
   align-items: center;
