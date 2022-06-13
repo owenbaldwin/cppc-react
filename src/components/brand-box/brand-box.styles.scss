@@ -1,0 +1,23 @@
+
+
+.brand-box-container {
+  text-align: justify;
+  border: 8px solid black;
+  margin-bottom: 24px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    margin: 16px;
+  }
+
+  .brand-box-white-bit {
+    border: 4px solid white;
+    bottom: -8px;
+    position: absolute;
+    width: 90%;
+  }
+}
