@@ -14,7 +14,7 @@
   justify-content: center;
 }
 
-@media screen and (max-width: $tablet) {
+@media screen and (max-width: $tablet-l) {
   .born-out-of-container {
     width: 100%;
     flex-direction: column;
@@ -34,7 +34,7 @@
   flex-direction: column;
 }
 
-@media screen and (max-width: $tablet) {
+@media screen and (max-width: $tablet-l) {
   .how-we-do-it-container {
     width: 95%;
   }
@@ -53,7 +53,7 @@
   justify-content: center;
 }
 
-@media screen and (max-width: $tablet) {
+@media screen and (max-width: $tablet-l) {
   .how-we-do-it-bottom {
     flex-direction: column-reverse;
   }

@@ -51,7 +51,7 @@ const Home = () => {
       <div className='case-studies-container'>
         <CaseStudy />
       </div>
-{/*
+
       <div className="references-container">
         <Reference />
       </div>
@@ -60,7 +60,6 @@ const Home = () => {
       <div className='contact-container' id="ctc">
         <Contact />
       </div>
-*/}
 
       <Outlet />
 

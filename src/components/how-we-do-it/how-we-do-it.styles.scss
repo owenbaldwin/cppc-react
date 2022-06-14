@@ -6,7 +6,7 @@
   // height: 100vh;
 }
 
-@media screen and (max-width: $tablet) {
+@media screen and (max-width: $tablet-l) {
   .hwdi-inner {
     margin-right: 0px;
   }
@@ -21,7 +21,7 @@
   align-items: center;
 }
 
-@media screen and (max-width: $tablet) {
+@media screen and (max-width: $tablet-l) {
   .hwdi-item-top {
     margin: 12px 0px;
     flex-direction: column;
@@ -54,7 +54,7 @@
   }
 }
 
-@media screen and (max-width: $tablet) {
+@media screen and (max-width: $tablet-l) {
   .hwdi-item-title {
     align-items: center;
     margin: 0px;
