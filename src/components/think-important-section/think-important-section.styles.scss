@@ -7,6 +7,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 50vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 @media screen and (max-width: $tablet-l) {
@@ -63,10 +67,10 @@
   padding: 24px;
   color: white;
   background-color: rgba(82, 82, 82, 0.597);
-  width: 40%;
+  width: 50%;
   p {
     margin: 0px;
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 
