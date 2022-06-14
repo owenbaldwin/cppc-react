@@ -5,7 +5,7 @@ import { ReactComponent as LinkedinLogo } from '../../assets/linkedin-in-brands.
 import Title from '../title/title.component';
 import { useState } from 'react';
 import Modal from '../../components/modal/modal.component';
-
+import ContactBgImage from '../../assets/cppc-contact-bg.png'
 
 
 const Contact = () => {
@@ -21,7 +21,7 @@ const Contact = () => {
       <div className='contact-image-container'>
         <img src="https://i.ibb.co/MRt88gz/CPPC-BUSINESS-CARDS-MOCK-UP.webp" alt="business cards" className='contact-image'/>
       </div>
-      <div className='contact-box'>
+      <div className='contact-box' style={{backgroundImage: `url(${ContactBgImage})`}}>
         <div className='contact-top'>
           {/* <Title title="" colour="red" side="right" />*/}
           <button type="button" className='contact-btn' onClick={openModal}>Contact Us</button>

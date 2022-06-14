@@ -1,3 +1,5 @@
+@import "./variables.scss";
+
 .blog-post-container {
   display: flex;
   flex-direction: column;
@@ -93,4 +95,17 @@
 
 .fa-facebook-f:hover {
   color: #1672E6;
+}
+
+
+
+
+@media screen and (max-width: $tablet-l) {
+  .social-media-links {
+    display: flex;
+    justify-content: center;
+    i {
+      margin: 16px 16px;
+    }
+  }
 }

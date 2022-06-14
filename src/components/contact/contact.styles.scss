@@ -1,3 +1,5 @@
+@import "../../stylesheets/variables.scss";
+
 .contact-outer {
   display: flex;
   width: 90%;
@@ -8,9 +10,12 @@
 }
 
 .contact-box {
-  height: 230px;
-  border: 8px solid #2F2E2E;
-  background-color: #5E5E5E;
+  height: 294px;
+  // border: 8px solid #2F2E2E;
+  border: 8px solid black;
+  // background-color: #5E5E5E;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -24,14 +29,20 @@
 }
 
 .contact-btn {
-  border: 2px solid black;
+  border: 4px solid black;
   background-color: white;
-  border-radius: 8px;
+  // border-radius: 8px;
   font-size: 24px;
   min-width: 100px;
   padding: 16px 32px;
   color: black;
   cursor: pointer;
+  transition: 0.5s;
+}
+
+.contact-btn:hover {
+  background-color: black;
+  color: white;
 }
 
 .contact-mid {
@@ -61,5 +72,25 @@
   p {
     color: white;
     margin: 0px;
+  }
+}
+
+
+@media screen and (max-width: $tablet-l) {
+  .contact-outer {
+    flex-direction: column;
+  }
+  .contact-image {
+    width: 100%;
+    height: auto;
+  }
+  .contact-box {
+    height: auto;
+  }
+  .contact-mid {
+    margin: 16px 0px;
+  }
+  .contact-bottom {
+    flex-direction: column;
   }
 }

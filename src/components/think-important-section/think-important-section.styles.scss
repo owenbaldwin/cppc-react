@@ -9,7 +9,7 @@
   min-height: 50vh;
 }
 
-@media screen and (max-width: $tablet) {
+@media screen and (max-width: $tablet-l) {
   .think-important-section-container {
     background-position: center;
   }
@@ -22,7 +22,7 @@
   width: 60%;
 }
 
-@media screen and (max-width: $tablet) {
+@media screen and (max-width: $tablet-l) {
   .section-content {
     flex-direction: column;
     width: 100%;
@@ -46,7 +46,7 @@
   }
 }
 
-@media screen and (max-width: $tablet) {
+@media screen and (max-width: $tablet-l) {
   .section-title {
     flex-direction: column;
     width: 95%;
@@ -70,7 +70,7 @@
   }
 }
 
-@media screen and (max-width: $tablet) {
+@media screen and (max-width: $tablet-l) {
   .section-text {
     width: 95%;
     p {
