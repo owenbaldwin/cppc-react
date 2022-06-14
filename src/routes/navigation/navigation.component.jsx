@@ -13,6 +13,8 @@ const Navigation = () => {
   return (
     <div className='navigation-container'>
       <div className='navigation-inner'>
+        <div id='blog-top-of-page'></div>
+
         <div className='nav-blur'></div>
         <div className='navbar'>
           <input type="checkbox" class="menu-btn" id="menu-btn" />

@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import { Carousel } from 'react-bootstrap';
 import CASE_STUDIES from '../../json-db/case-studies';
 import BrandBox from '../../components/brand-box/brand-box.component'
-
+import '../../stylesheets/blog-universal-styles.scss'
 
 const Gallery = () => {
   const { gallery } = useParams();
@@ -55,8 +55,11 @@ const Gallery = () => {
                 })}
               </Carousel>
 
-              <div className='gallery-link'>
-                <a href={item.link} target="_blank">{item.title}</a>
+              <div className='gallery-link-container'>
+                <a href='/'><i class="fa-solid fa-circle-chevron-left chevron-btn"></i></a>
+                <a href={item.link} target="_blank" className='gallery-link'>{item.title}</a>
+                <a href='#blog-top-of-page'><i class="fa-solid fa-circle-chevron-up chevron-btn"></i></a>
+
               </div>
             </div>
           )

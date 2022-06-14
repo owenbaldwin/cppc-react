@@ -22,6 +22,7 @@ const Home = () => {
   return (
     <div className="home-container">
 
+
       <div className='landing-page'>
         <BackgroundVideo />
       </div>

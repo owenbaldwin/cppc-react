@@ -1,6 +1,7 @@
 import './what-we-do.styles.scss';
 import WHAT_WE_DO from '../../json-db/what-we-do';
 import Title from '../title/title.component';
+import HomeUpBtn from '../home-up-btn/home-up-btn.component';
 
 console.log(WHAT_WE_DO[0].aspects);
 
@@ -21,6 +22,7 @@ const WhatWeDo = () => {
       <div className='wwd-diagram-container'>
         <img src={WHAT_WE_DO[1].imageUrl} alt="item diagram" className='wwd-diagram'/>
       </div>
+      <HomeUpBtn />
     </div>
   );
 };

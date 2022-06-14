@@ -2,6 +2,7 @@ import './born-out-of.styles.scss';
 import BORN_OUT_OF_TEXT from '../../json-db/born-out-of';
 import Title from '../title/title.component';
 import BrandBox from '../brand-box/brand-box.component';
+import HomeUpBtn from '../home-up-btn/home-up-btn.component';
 
 const BornOutOf = () => {
   return (
@@ -17,6 +18,7 @@ const BornOutOf = () => {
 
         </div>
       </div>
+      <HomeUpBtn />
     </div>
   );
 };
