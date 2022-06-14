@@ -15,7 +15,7 @@ const Navigation = () => {
       <div className='navigation-inner'>
         <div id='blog-top-of-page'></div>
 
-        <div className='nav-blur'></div>
+        {/* <div className='nav-blur'></div> */}
         <div className='navbar'>
           <input type="checkbox" class="menu-btn" id="menu-btn" />
           <label for="menu-btn" class="menu-icon"><span class="nav-icon"></span></label>

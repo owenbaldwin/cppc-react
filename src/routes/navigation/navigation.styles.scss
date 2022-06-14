@@ -4,10 +4,14 @@
 // $phone: 480px;
 @import "../../stylesheets/variables.scss";
 
+// .navigation-container {
+//   position: relative;
+// }
+
 .nav-blur {
-  background-color: transparent;
+  // background-color: transparent;
   filter: blur(8px);
-  -webkit-filter: blur(8px);
+  // -webkit-filter: blur(8px);
 }
 
 .navbar {
@@ -16,8 +20,10 @@
   flex-direction: column;
   align-items: flex-end;
   padding: 0;
-  background-color: transparent;
-  position: sticky;
+  // background-color: transparent;
+  // background-color: red;
+  // position: fixed;
+  position: absolute;
   top: 0px;
   z-index: 10;
 }
@@ -59,8 +65,8 @@ li {
   a:hover {
     text-decoration: none;
     color: black;
-    text-shadow: 0 0 20px black;
-
+    // text-shadow: 0 0 20px black;
+    transform: scale(1.1);
   }
 }
 
@@ -153,7 +159,20 @@ li {
   .navbar {
     height: 60px;
     justify-content: center;
-    position: sticky;
+    // position: fixed;
+    // top: 0px;
+    z-index: 10;
+    // filter: blur(4px);
+    background-color: transparent;
+  }
+  .nav-blur {
+    // background-color: transparent;
+    height: 60px;
+    width: 100%;
+    // filter: blur(8px);
+    // -webkit-filter: blur(8px);
+    backdrop-filter: blur(-20px);
+    // position: fixed;
     top: 0px;
     z-index: 10;
   }
