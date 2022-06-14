@@ -1,5 +1,6 @@
 import './reference.styles.scss';
 import REFERENCES from '../../json-db/references';
+import HomeUpBtn from '../home-up-btn/home-up-btn.component';
 
 const Reference = () => {
   return (
@@ -12,6 +13,7 @@ const Reference = () => {
           </div>
         )
       })}
+      <HomeUpBtn />
     </div>
   );
 };
