@@ -1,5 +1,6 @@
 @import "../../stylesheets/variables.scss";
 
+
 .think-important-section-container {
   display: flex;
   align-items: center;
@@ -30,6 +31,7 @@
   .section-content {
     flex-direction: column;
     width: 100%;
+    padding-top: 8px;
   }
 }
 

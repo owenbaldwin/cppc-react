@@ -1,3 +1,5 @@
+@import "../../stylesheets/variables.scss";
+
 .blog-post-seven-container {
   display: flex;
   flex-direction: column;
@@ -31,4 +33,22 @@
   font-size: 24px;
   width: 60%;
   margin: 48px 0px;
+}
+
+
+@media screen and (max-width: $tablet-l) {
+
+  .blog-post-seven-container {
+    width: 100%;
+  }
+
+  .blog-post-seven-image-outer {
+    display: block;
+  }
+
+  .blog-post-seven-text {
+    font-size: 16px;
+    width: 90%;
+    margin: 48px 0px;
+  }
 }
