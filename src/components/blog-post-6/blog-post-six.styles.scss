@@ -1,3 +1,5 @@
+@import "../../stylesheets/variables.scss";
+
 .blog-post-six-container {
   display: flex;
   flex-direction: column;
@@ -43,4 +45,56 @@
 
 .blog-post-six-image {
   width: 25%;
+}
+
+
+@media screen and (max-width: $tablet-l) {
+  .blog-post-six-container {
+    width: 100%;
+  }
+
+  .blog-post-six-video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blog-post-six-text {
+    text-align: justify;
+    font-weight: bold;
+    font-size: 16px;
+    width: 90%;
+    margin: 48px 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    a {
+      color: black;
+    }
+  }
+
+  .blog-post-six-logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 24px 0px;
+    width: 90%;
+  }
+
+  .blog-post-six-logo {
+    height: 100px;
+  }
+
+  .blog-post-six-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+    .blog-post-six-image {
+      width: 90%;
+    }
 }

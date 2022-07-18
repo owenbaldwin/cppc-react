@@ -12,11 +12,11 @@ const Blog = () => {
     <div className='blog-container'>
       <BlogPostSeven />
       <BlogPostSix />
-      <BlogPostFive />
+      {/*<BlogPostFive />
       <BlogPostFour />
       <BlogPostThree />
       <BlogPostTwo />
-      <BlogPostOne />
+  <BlogPostOne />*/}
     </div>
   );
 };
