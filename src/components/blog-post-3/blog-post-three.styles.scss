@@ -75,6 +75,12 @@
   text-align: justify;
 }
 
+.brandbox-styling {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
 @media screen and (max-width: $tablet-l) {
   .blog-post-three-container {

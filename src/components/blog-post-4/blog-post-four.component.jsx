@@ -4,6 +4,7 @@ import '../../stylesheets/blog-universal-styles.scss';
 import BLOG_POST_FOUR from '../../json-db/blog-post-4';
 import Title from '../title/title.component';
 import BlogBackBtn from '../blog-back-btn/blog-back-btn.component';
+import BrandBox from '../brand-box/brand-box.component';
 
 const BlogPostFour = () => {
   const { title, text, photos } = BLOG_POST_FOUR[0];
@@ -23,15 +24,22 @@ const BlogPostFour = () => {
         </div>
 
         <div className='blog-post-vertical-half'>
-          <div className='blog-post-bordered-text'>
+          {/*<div className='blog-post-bordered-text'>
             <p>{text[0].paragraph}</p>
-          </div>
+          </div>*/}
+          <BrandBox content={<p>{text[0].paragraph}</p>} />
           <img src={photos[2].imageUrl} alt={title} className='blog-post-image-mid'/>
           <img src={photos[3].imageUrl} alt={title} className='blog-post-image-mid'/>
-          <div className='blog-post-bordered-text'>
+          {/*<div className='blog-post-bordered-text'>
             <p>{text[2].paragraph}</p>
             <p>{text[3].paragraph}</p>
-          </div>
+          </div>*/}
+          <BrandBox content={
+            <div>
+              <p>{text[2].paragraph}</p>
+              <p>{text[3].paragraph}</p>
+            </div>
+          } />
         </div>
       </div>
       <BlogBackBtn />

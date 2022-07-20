@@ -4,6 +4,7 @@ import '../../stylesheets/blog-universal-styles.scss';
 import BLOG_POST_TWO from '../../json-db/blog-post-2';
 import Title from '../title/title.component';
 import BlogBackBtn from '../blog-back-btn/blog-back-btn.component';
+import BrandBox from '../brand-box/brand-box.component';
 
 
 const BlogPostTwo = () => {
@@ -19,9 +20,10 @@ const BlogPostTwo = () => {
 
       <div className='blog-post-vertical-body'>
         <div className='blog-post-vertical-half'>
-          <div className='blog-post-bordered-text'>
+          {/*<div className='blog-post-bordered-text'>
             <p> <a href={link_1} target='_blank'>{linkname_1}</a> {text[0].paragraph}</p>
-          </div>
+          </div>*/}
+          <BrandBox content={<p> <a href={link_1} target='_blank'>{linkname_1}</a> {text[0].paragraph}</p>} />
           <img src={photos[2].imageUrl} alt="CarbonQuota" className='blog-post-image-mid'/>
           <img src={photos[3].imageUrl} alt="CarbonQuota" className='blog-post-image-mid'/>
           <div className='blog-post-two-small-image-container'>
@@ -32,15 +34,17 @@ const BlogPostTwo = () => {
 
         <div className='blog-post-vertical-half'>
           <img src={photos[1].imageUrl} alt="CarbonQuota" className='blog-post-image-mid'/>
-          <div className='blog-post-bordered-text'>
+          {/*<div className='blog-post-bordered-text'>
             <p> <a href={link_2} target='_blank'>{linkname_2}</a> {text[1].paragraph}</p>
-          </div>
+          </div>*/}
+          <BrandBox content={<p> <a href={link_2} target='_blank'>{linkname_2}</a> {text[1].paragraph}</p>} />
           <div className='blog-post-text'>
             <p>"{text[2].paragraph}"</p>
           </div>
-          <div className='blog-post-bordered-text'>
+          {/*<div className='blog-post-bordered-text'>
             <p>{text[3].paragraph}</p>
-          </div>
+          </div>*/}
+          <BrandBox content={<p>{text[3].paragraph}</p>} />
         </div>
       </div>
 

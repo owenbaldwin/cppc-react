@@ -1,23 +1,34 @@
-
+@import "../../stylesheets/variables.scss";
 
 .brand-box-container {
   text-align: justify;
   border: 8px solid black;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  margin-top: 16px;
+  width: 100%;
   p {
     margin: 16px;
   }
+  a {
+    color: black;
+  }
 
-  .brand-box-white-bit {
-    border: 4px solid white;
-    bottom: -8px;
-    position: absolute;
+}
+
+.brand-box-white-bit {
+  border: 4px solid white;
+  bottom: -8px;
+  position: absolute;
+  width: 90%;
+}
+
+@media screen and (max-width: $tablet-l) {
+  .brand-box-container {
     width: 90%;
   }
 }
