@@ -12,9 +12,9 @@ const Blog = () => {
     <div className='blog-container'>
       <BlogPostSeven />
       <BlogPostSix />
-      {/*<BlogPostFive />
+      <BlogPostFive />
       <BlogPostFour />
-      <BlogPostThree />
+      {/*<BlogPostThree />
       <BlogPostTwo />
   <BlogPostOne />*/}
     </div>

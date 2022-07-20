@@ -117,4 +117,35 @@
       margin: 16px 16px;
     }
   }
+
+  .blog-post-vertical-body {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blog-post-vertical-half {
+    width: 100%;
+    padding: 0px 0px;
+  }
+
+  .blog-post-image-mid {
+    margin: 0px;
+  }
+
+  .blog-post-text {
+    width: 90%;
+    font-weight: bold;
+    font-size: 16px;
+    p{
+      margin: 0px;
+    }
+  }
+
+  .blog-post-bordered-text {
+    width: 90%;
+    border: 8px solid black;
+    padding: 24px;
+    text-align: justify;
+    margin: 16px;
+  }
 }
