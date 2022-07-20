@@ -14,9 +14,9 @@ const Blog = () => {
       <BlogPostSix />
       <BlogPostFive />
       <BlogPostFour />
-      {/*<BlogPostThree />
+      <BlogPostThree />
       <BlogPostTwo />
-  <BlogPostOne />*/}
+      <BlogPostOne />
     </div>
   );
 };
