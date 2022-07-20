@@ -1,3 +1,6 @@
+@import "../../stylesheets/variables.scss";
+
+
 .blog-post-three-container {
   display: flex;
   flex-direction: column;
@@ -70,4 +73,36 @@
   font-weight: bold;
   font-size: 20px;
   text-align: justify;
+}
+
+
+@media screen and (max-width: $tablet-l) {
+  .blog-post-three-container {
+    width: 100%;
+  }
+
+  .blog-post-three-subtitle {
+    text-align: center;
+    margin-top: 8px;
+    h2 {
+      font-weight: bold;
+    }
+  }
+
+  .blog-post-three-video-container {
+    align-items: center;
+  }
+
+  .blog-post-three-video {
+    // height: auto;
+    margin: 0px;
+    width: 100%;
+  }
+
+  .blog-post-three-text-large {
+    width: 90%;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: justify;
+  }
 }

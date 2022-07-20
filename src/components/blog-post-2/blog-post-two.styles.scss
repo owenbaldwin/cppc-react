@@ -85,3 +85,31 @@
 p, a {
   font-family: Futura;
 }
+
+
+@media screen and (max-width: $tablet-l) {
+  .blog-post-two-container {
+    width: 100%;
+  }
+
+  .blog-post-two-small-image-container {
+    flex-direction: column;
+    align-items: center;
+    margin: 8px 0px;
+
+  }
+
+  .blog-post-two-three-images {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blog-post-two-image-small {
+    width: 100%;
+  }
+
+  .blog-post-two-quote {
+    text-align: justify;
+    width: 90%;
+  }
+}
