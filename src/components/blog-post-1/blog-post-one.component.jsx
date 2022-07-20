@@ -4,6 +4,7 @@ import BLOG_POST_ONE from '../../json-db/blog-post-1';
 import Title from '../title/title.component';
 import ForegroundVideo from '../foreground-video/foreground-video.component';
 import BlogBackBtn from '../blog-back-btn/blog-back-btn.component';
+import BrandBox from '../brand-box/brand-box.component';
 
 const BlogPostOne = () => {
   const { logo, text, photos, link_1, link_2, videos } = BLOG_POST_ONE[0];
@@ -18,9 +19,10 @@ const BlogPostOne = () => {
       <div className='blog-post-vertical-body'>
         <div className='blog-post-vertical-half'>
           <img src={photos[0].imageUrl} alt="neat" className='blog-post-image-mid'/>
-          <div className='blog-post-bordered-text'>
+          {/*<div className='blog-post-bordered-text'>
             <p>{text[0].paragraph}</p>
-          </div>
+          </div>*/}
+          <BrandBox content={<p>{text[0].paragraph}</p>} />
           <img src={photos[2].imageUrl} alt="neat" className='blog-post-image-mid'/>
 
           <div className='blog-post-text'>
