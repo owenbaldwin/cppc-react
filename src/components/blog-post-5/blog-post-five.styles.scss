@@ -1,3 +1,5 @@
+@import "../../stylesheets/variables.scss";
+
 .blog-post-five-container {
   display: flex;
   flex-direction: column;
@@ -58,4 +60,47 @@
 
 .blog-post-five-image-small {
   width: 50%;
+}
+
+
+@media screen and (max-width: $tablet-l) {
+  .blog-post-five-container {
+    width: 100%;
+  }
+
+  .blog-post-five-half {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blog-post-five-image-large {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  .blog-post-five-half-right {
+    width: 100%;
+  }
+
+  .blog-post-five-bordered-text {
+    border: 8px solid black;
+    padding: 8px;
+    width: 90%;
+  }
+
+  .blog-post-five-text {
+    font-size: 16px;
+    width: 90%;
+  }
+
+  .blog-post-five-image-small-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blog-post-five-image-small {
+    width: 100%;
+  }
+
 }

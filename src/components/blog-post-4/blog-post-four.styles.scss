@@ -1,3 +1,6 @@
+@import "../../stylesheets/variables.scss";
+
+
 .blog-post-four-container {
   display: flex;
   flex-direction: column;
@@ -42,4 +45,12 @@
   padding: 24px;
   text-align: justify;
   // margin-top: 24px;
+}
+
+
+@media screen and (max-width: $tablet-l) {
+  .blog-post-four-container {
+    width: 100%;
+  }
+
 }

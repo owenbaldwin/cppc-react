@@ -15,6 +15,8 @@ const BlogPostFive = () => {
           <img src={logo} alt={title} className='blog-post-five-logo'/>
           <div className='blog-post-five-bordered-text'>
             <p>{text[0].paragraph}</p>
+            <div className='brand-box-white-bit'></div>
+
           </div>
           <div className='blog-post-five-text'>
             <p>{text[1].paragraph}</p>
