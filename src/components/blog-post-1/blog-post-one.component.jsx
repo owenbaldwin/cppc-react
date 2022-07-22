@@ -34,7 +34,9 @@ const BlogPostOne = () => {
           <div className='blog-post-one-custom-box'>
             <p>You can now choose 10 refills and save £4.</p>
             <a href={link_1} target='_blank'>CREATE YOUR CUSTOM REFILL BUNDLE</a>
-          </div>
+
+            </div>
+            <h5 className='blog-post-now-in-store'>NOW IN STORE AT <a href={link_1} target='_blank'>BOOTHS</a></h5>
 
 
         </div>
@@ -45,12 +47,11 @@ const BlogPostOne = () => {
 
           <ForegroundVideo videoSrc={videos[1].videoUrl} height="hundredwidth" />
 
-          <h5 className='blog-post-now-in-store'>NOW IN STORE AT <a href={link_1} target='_blank'>BOOTHS</a></h5>
 
-        </div>
-      </div>
+          </div>
+          </div>
 
-      <div className='blog-post-quote-container'>
+          <div className='blog-post-quote-container'>
         <p className='blog-post-quote'>"{text[2].paragraph}"</p>
         <p className='blog-post-quote-subtitle'>{text[3].paragraph}</p>
       </div>

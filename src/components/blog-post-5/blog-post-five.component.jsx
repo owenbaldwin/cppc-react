@@ -25,7 +25,7 @@ const BlogPostFive = () => {
           </div>
         </div>
       </div>
-      <div className='blog-post-five-half'>
+      <div className='blog-post-five-half margin-btm'>
           <img src={photos[1].imageUrl} alt={title} className='blog-post-five-image-large'/>
         <div className='blog-post-five-half-right'>
           <div className='blog-post-five-image-small-container'>

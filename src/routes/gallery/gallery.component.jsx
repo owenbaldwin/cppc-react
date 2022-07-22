@@ -21,7 +21,7 @@ const Gallery = () => {
             <div className='gallery-inner'>
               <img src={item.imageUrl} alt="company logo" className='gallery-logo'/>
 
-              <BrandBox content={item.text} />
+              <BrandBox content={<p>{item.text}</p>} />
 
               <Carousel fade>
                 {item.photos.map((photo) => {
